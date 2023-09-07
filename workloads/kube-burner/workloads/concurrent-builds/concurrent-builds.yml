@@ -63,7 +63,6 @@ jobs:
     namespace: conc-b-{{.UUID}}
     podWait: {{.POD_WAIT}}
     cleanup: {{.CLEANUP}}
-    waitFor: {{.WAIT_FOR}}
     waitWhenFinished: {{.WAIT_WHEN_FINISHED}}
     verifyObjects: {{.VERIFY_OBJECTS}}
     errorOnVerify: {{.ERROR_ON_VERIFY}}
